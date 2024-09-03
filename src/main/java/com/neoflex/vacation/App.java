@@ -1,13 +1,13 @@
-package com.neoflex.vac_calc;
+package com.neoflex.vacation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VacCalcApplication {
+public class App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VacCalcApplication.class, args);
+		SpringApplication.run(App.class, args);
 	}
 
 }

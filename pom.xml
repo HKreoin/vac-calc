@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.neoflex</groupId>
-	<artifactId>vac-calc</artifactId>
+	<artifactId>vacation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vac-calc</name>
+	<name>vacation</name>
 	<description>Vacation calculator API</description>
 	<url/>
 	<licenses>
