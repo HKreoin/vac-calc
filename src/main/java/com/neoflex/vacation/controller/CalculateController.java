@@ -17,7 +17,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 public final class CalculateController {
 
     @GetMapping(value = "calculate")
-    @Operation(summary = "Передача данных о средней зарплате и количестве дней отпуска",
+    @Operation(summary = "Расчет отпускных на основе средней зарплаты и количестве дней отпуска",
         responses = {@ApiResponse(description = "Сумма отпускных")})
     public Map<String, Double> calculate(@RequestParam(defaultValue = "0") double averageSalary,
                                             @RequestParam(defaultValue = "0") int vacationDays) {
